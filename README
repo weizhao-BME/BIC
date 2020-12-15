@@ -1,0 +1,10 @@
+1. The data folder contains all the data used in this study:
+ 1) For each dataset, there are: 18 BIC (predictors), MPS95/MPSCC95/CSDM(outcomes)
+ 2) For lab impacts, the BIC are calculated in batches by KTH modeling which needs to be concatenated by rows
+ 3) For CF and MMA impacts, the BIC are calculated in batches as well.
+ 
+2. The code folder contains the example codes for each of the tasks reported in the manuscript:
+ 1) regression slope_statistical tests.ipynb shows the code for calculating regression slopes on different datasets/outcomes, with 1000 iterations of bootstrapping experiments and the final Wilcoxon singed rank tests and the one-way ANOVA tests;
+ 2) single dataset.ipynb shows the code for single-dataset prediction task;
+ 3) leave_one_dataset_out.ipynb shows the example code for leave-one-dataset-out prediction task;
+ 4) distribution visualization_cross dataset.ipynb shows the example code for visualizing the data distribution of MPS95 and for the cross-dataset prediction task.
